@@ -1,0 +1,47 @@
+
+
+input[type="text"],input[type="password"] {
+    width: 60%;
+    height: 45px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.form-input::before {
+    
+    position: absolute;
+    font-family: "FontAwesome";
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 30px;
+    color: #a30a1a;
+    border: none;
+}
+
+
+
+.btn-login{
+    padding: 15px 25px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background: #2ecc71;
+    border-bottom: 4px solid #27ae60;
+    margin-bottom: 5px;
+}
+
+.btn-login:hover {
+    background: none;
+    border-bottom: none;
+    border: 2px solid #fff;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
